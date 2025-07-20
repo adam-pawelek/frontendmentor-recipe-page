@@ -200,7 +200,7 @@ h2{
 /* Mobile (min-width 1440px) */
 @media (min-width: 375px) {
   #recipe-container {
-    height: 1872px;
+    min-height: 1872px; /* sets a minimum height */
     width: 736px;
     border-radius: 0;
   }
