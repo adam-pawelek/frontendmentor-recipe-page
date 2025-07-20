@@ -198,7 +198,7 @@ h2{
 
 
 /* Mobile (min-width 1440px) */
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   #recipe-container {
     min-height: 1872px; /* sets a minimum height */
     width: 736px;
@@ -215,7 +215,7 @@ h2{
 /* Tablet (min-width 768px) */
 @media (min-width: 768px) {
     #recipe-container {
-        height: 1844px;
+        min-height: 1844px;
         width: 616px;
         border-radius: 24px;
     }
@@ -231,7 +231,7 @@ h2{
 /* Desktop (min-width 1440px) */
 @media (min-width: 1440px) {
   #recipe-container {
-    height: 1700px;
+    min-height: 1700px;
     width: 736px;
   }
 }
